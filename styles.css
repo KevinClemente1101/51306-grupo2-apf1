@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .logo {
   max-height: 50px;
   height: auto;
@@ -33,6 +34,7 @@ body{
 .envio-bar img {
   vertical-align: middle;
 }
+
 
 
 /* Evita la superposición y asegura el correcto posicionamiento */
@@ -58,6 +60,7 @@ body{
   margin: 20px;
 }
 
+
 .rating {
   direction: rtl; /* Hace que las estrellas se ordenen de derecha a izquierda */
   font-size: 2em;
@@ -81,12 +84,38 @@ body{
   color: #f5b301; /* Cambia el color al pasar el cursor */
 }
 
+
 .navbar {
     display: flex;
     position: relative;
     width: 100%; /* Para que la barra de navegación ocupe todo el ancho */
     z-index: 1001; /* Asegura que quede sobre otros elementos */
     padding: 20px 0;
+  
+
+}
+.logo {
+  max-height: 50px;
+  height: auto;
+  width: auto; 
+  border-radius: 20%;
+}
+.envio-bar {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.envio-text {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.envio-bar img {
+  vertical-align: middle;
+} 
+
+=======
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
 
@@ -280,6 +309,7 @@ body{
   .container.active .toggle-right{
     transform: translateX(200%);
   }
+
 footer {
     position: relative;
     bottom: 0;
